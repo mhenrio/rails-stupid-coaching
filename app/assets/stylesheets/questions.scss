@@ -1,0 +1,18 @@
+$pink: #FFC0CB;
+
+body {
+  background: $pink; // Using this variable
+}
+
+
+h1 {
+  font-family: Arial;
+  font-size: 40px;
+  }
+
+a {
+  color: grey;
+  &:hover {
+    color: black;
+  }
+}
